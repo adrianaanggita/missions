@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 2px;
+}
+
+li, a, h5, p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #949eb2;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 32px;
+    padding-left: 32px;
+}
+
+.container {
+    padding-right: 32px;
+    padding-left: 32px;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    text-decoration: underline;
+}
+
+.col, .col-right {
+    box-sizing: border-box;
+}
+
+.col {
+    float: left;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.button {
+    display: inline-block;
+    line-height:  18px;
+    padding-top: 8px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    box-shadow: 0 0 1px 0 rgb(56 64 79 / 30%), 0 1px 1px 0 rgb(9 24 54 / 24%), 0 2px 5px 0 rgb(9 24 54 / 6%);;
+}
+
+.border-rd {
+    border-radius: 3px;
+}
+
+.py64 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.py32 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.px32 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.p48 {
+    padding: 48px;
+}
+
+.mb64 {
+    margin-bottom: 64px;
+}
+
+.mb8 {
+    margin-bottom: 8px;
+}
+
+.mb16 {
+    margin-bottom: 16px;
+}
+
+.bg-gray {
+    background-color: rgb(233, 236, 239);
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.dark-blue {
+    color: #091836;
+}
+
+.gray {
+    color: #778298;
+}
+
+.fs26 {
+    font-size: 26px;
+}
+
+.fs22 {
+    font-size: 22px;
+}
+
+.fs22 {
+    font-size: 22px;
+}
