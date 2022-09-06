@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.main {
+    opacity: 0;
+}
+
+.text1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 39%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); 
+    font-size: 0.9em;
+    font-family: 'Cinzel', serif;
+    padding: 0;
+    animation: fade-in 5s;
+    color:  #2E2D2E;
+}
+
+.text2 {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); 
+    font-size: 2.3em;
+
+    font-family: 'Raleway', sans-serif;
+    color: #2E2D2E;
+    animation: fade-in 10s;
+}
+
+.text3 {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); 
+    font-size: 0.7em;
+    font-weight: 1000;
+    font-family: 'Raleway', sans-serif;
+    color: #89888B;
+    animation: fade-in 10s;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.imgS {
+    position: absolute;
+    height: 12%;
+    width: auto;
+    z-index: 1;
+}
+
+.imgF {
+    position: absolute;
+    height: 12%;
+    width: auto;
+    z-index: 1;
+}
+
+.img1 {
+    height: 15%;
+    top: 10%;
+    left: 4%;
+    animation: fade-in 4s, circle1 30s linear infinite;
+}
+
+.img2 {
+    top: 33%;
+    left: 10%;
+    animation: fade-in 8s linear, circle2 30s linear infinite;    
+}
+
+.img3 {
+    top: 47%;
+    left: 2%;
+    animation: circle3 40s linear infinite,  fade-in 8s;
+}
+
+.img4 {
+    top: 70%;
+    left: 10%;
+    animation: circle4 50s linear infinite,  fade-in 2s;
+}
+
+.img5 {
+    height: 15%;
+    top: 51%;
+    left: 20%;
+    animation: circle5 70s linear infinite, fade-in 8s;
+}
+
+.img6 {
+    height: 13%;
+    top: 17%;
+    left: 22%;
+    animation: circle5 70s linear infinite, fade-in 4s;
+}
+
+.img7 {
+    height: 17%;
+    top: 74%;
+    left: 30%;
+    animation: circle7 30s linear infinite, fade-in 8s;
+}
+
+.img8 {
+    top: 6%;
+    left: 38%;
+    animation: circle8 50s linear infinite, fade-in 2s;
+}
+
+.img9 {
+    height: 15%;
+    top: 3%;
+    left: 57%;
+    animation: circle9 40s linear infinite, fade-in 8s;
+}
+
+.img10 {
+    height: 15%;
+    top: 23%;
+    left: 73%;
+    animation: circle10 50s linear infinite, fade-in 8s;
+}
+
+.img11 {
+    height: 15%;
+    top: 23%;
+    left: 81%;
+    animation: circle11 60s linear infinite, fade-in 3s;
+}
+
+.img12 {
+    top: 40%;
+    left: 95%;
+    animation: circle9 60s linear infinite, fade-in 4s;
+}
+
+.img13 {
+    top: 51%;
+    left: 78%;
+    animation: circle8 60s linear infinite, fade-in 2s;
+}
+
+.img14 {
+    height: 17%;
+    top: 80%;
+    left: 60%;
+    animation: circle10 60s linear infinite, fade-in 4s;
+}
+
+.img15 {
+    height: 17%;
+    top: 73%;
+    left: 87%;
+    animation: circle4 60s linear infinite, fade-in 4s;
+}
+
+.img16 {
+    height: 15%;
+    top: 5%;
+    left: 90%;
+    animation: circle3 60s linear infinite, fade-in 8s;
+}
+
+@keyframes circle1 {
+    from {
+        transform: rotate(0deg) 
+                   translate(-30px) 
+                   rotate(0deg);             
+    }
+    to {
+        transform: rotate(360deg) 
+                   translate(-30px) 
+                   rotate(-360deg);
+    }
+}
+
+@keyframes circle2 {
+    from {
+        transform: rotate(0deg) 
+                   translate(20px) 
+                   rotate(0deg);             
+    }
+    to {
+        transform: rotate(360deg) 
+                   translate(-20px) 
+                   rotate(-360deg);
+    }
+}
+
+@keyframes circle3 {
+    from {
+        transform: rotate(-360deg) 
+                    translate(-10px) 
+                    rotate(360deg);             
+        }
+        to {
+        transform: rotate(0deg) 
+                    translate(10px) 
+                    rotate(0deg);
+        }
+}
+
+@keyframes circle4 {
+    from {
+        transform: rotate(-360deg) 
+                    translate(-30px) 
+                    rotate(360deg);             
+        }
+    to {
+        transform: rotate(0deg) 
+                    translate(30px) 
+                    rotate(0deg);
+        }
+}
+
+@keyframes circle5 {
+    from {
+        transform: rotate(-360deg) 
+                    translate(20px) 
+                    rotate(360deg);             
+        }
+        to {
+        transform: rotate(0deg) 
+                    translate(-20px) 
+                    rotate(0deg);
+        }
+}
+
+@keyframes circle7 {
+    from {
+        transform: rotate(-360deg) 
+                    translate(-30px) 
+                    rotate(360deg);             
+        }
+        to {
+        transform: rotate(0deg) 
+                    translate(30px) 
+                    rotate(0deg);
+        }
+}
+
+@keyframes circle8 {
+    from {
+        transform: rotate(0deg) 
+                   translate(50px) 
+                   rotate(0deg);             
+    }
+    to {
+        transform: rotate(360deg) 
+                   translate(-50px) 
+                   rotate(-360deg);
+    }
+}
+
+@keyframes circle9 {
+    from {
+        transform: rotate(-360deg) 
+                    translate(-25px) 
+                    rotate(360deg);             
+        }
+        to {
+        transform: rotate(0deg) 
+                    translate(25px) 
+                    rotate(0deg);
+        }
+}
+
+@keyframes circle10 {
+    from {
+        transform: rotate(-360deg) 
+                    translate(20px) 
+                    rotate(360deg);             
+        }
+        to {
+        transform: rotate(0deg) 
+                    translate(-20px) 
+                    rotate(0deg);
+        }
+}
+
+@keyframes circle11 {
+    from {
+        transform: rotate(-360deg) 
+                    translate(10px) 
+                    rotate(360deg);             
+        }
+        to {
+        transform: rotate(0deg) 
+                    translate(-10px) 
+                    rotate(0deg);
+        }
+}
