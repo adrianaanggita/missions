@@ -29,7 +29,7 @@ body{
     font-size: 0.9em;
     font-family: 'Cinzel', serif;
     padding: 0;
-    animation: fade-in 5s;
+    animation: fade-in 6s;
     color:  #2E2D2E;
 }
 
@@ -62,7 +62,7 @@ body{
     font-weight: 1000;
     font-family: 'Raleway', sans-serif;
     color: #89888B;
-    animation: fade-in 10s;
+    animation: fade-in 4s;
 }
 
 @keyframes fade-in {
